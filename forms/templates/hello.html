@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    {% if (is_birthday) %}
+        <h1 class="birthday">Today is your birthday!</h1>
+    {% else %}
+        <h1 class="birthday">Today is not your birthday loser hahahaha get off my site</h1>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    First page
+{% endblock %}
+
+{% block body %}
+    <p>
+        This is the first page tehe
+    </p>
+
+    <a href="{{ url_for('more') }}">See more..</a>
+{% endblock %}

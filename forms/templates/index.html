@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div id="container">
+        <h3>Enter your birthday</h3>
+        <form action="{{ url_for('hello') }}" method="POST">
+            <input type="date" 
+            name="birthdate" 
+            value="2020-10-23"
+            min="1920-01-01" max="2020-10-23">
+            <button>Submit</button>
+        </form>
+    </div>
+{% endblock %}
