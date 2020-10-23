@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is it your bday?</title>
+    <style>
+        h1 {
+            font-size: 100px;
+            width: 300px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    {% if bday %}
+        <h1>Happy Birthday!</h1>
+    {% else %}
+        <h1>It is not your birthday. haha</h1>
+    {% endif %}
+</body>
+</html>
